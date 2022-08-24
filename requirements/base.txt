@@ -6,11 +6,29 @@
 #
 asgiref==3.5.2
     # via django
+certifi==2022.6.15
+    # via requests
+charset-normalizer==2.1.1
+    # via requests
 django==3.2.15
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
+future==0.18.2
+    # via pyjwkest
+idna==3.3
+    # via requests
+pycryptodomex==3.15.0
+    # via pyjwkest
+pyjwkest==1.4.2
+    # via -r requirements/base.in
 pytz==2022.2.1
     # via django
+requests==2.28.1
+    # via pyjwkest
+six==1.16.0
+    # via pyjwkest
 sqlparse==0.4.2
     # via django
+urllib3==1.26.12
+    # via requests
