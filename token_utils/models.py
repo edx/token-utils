@@ -1,3 +1,3 @@
 """
-Database models for token_utils.
+Token utils is not expected to have any database models.
 """

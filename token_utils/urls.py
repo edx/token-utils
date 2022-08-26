@@ -5,6 +5,5 @@ from django.urls import re_path  # pylint: disable=unused-import
 from django.views.generic import TemplateView  # pylint: disable=unused-import
 
 urlpatterns = [
-    # TODO: Fill in URL patterns and views here.
-    # re_path(r'', TemplateView.as_view(template_name="token_utils/base.html")),
+    # token_utils is not expected to have any URLs
 ]
