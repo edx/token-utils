@@ -6,7 +6,7 @@
 #
 asgiref==3.5.2
     # via django
-certifi==2022.6.15
+certifi==2022.9.14
     # via requests
 charset-normalizer==2.1.1
     # via requests
@@ -16,7 +16,7 @@ django==3.2.15
     #   -r requirements/base.in
 future==0.18.2
     # via pyjwkest
-idna==3.3
+idna==3.4
     # via requests
 pycryptodomex==3.15.0
     # via pyjwkest
