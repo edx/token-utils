@@ -92,7 +92,7 @@ detect_changed_source_translations:
 	cd token_utils && i18n_tool changed
 
 pull_translations: ## pull translations from Transifex
-	tx pull -t -af --mode reviewed
+	tx pull -af --mode reviewed
 
 push_translations: ## push source translation files (.po) from Transifex
 	tx push -s
