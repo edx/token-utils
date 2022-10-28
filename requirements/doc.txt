@@ -44,7 +44,7 @@ coverage[toml]==6.5.0
     #   pytest-cov
 cryptography==38.0.1
     # via secretstorage
-django==3.2.15
+django==3.2.16
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -165,13 +165,13 @@ requests==2.28.1
     #   requests-toolbelt
     #   sphinx
     #   twine
-requests-toolbelt==0.9.1
+requests-toolbelt==0.10.0
     # via twine
 restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==12.5.1
+rich==12.6.0
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -182,7 +182,7 @@ six==1.16.0
     #   pyjwkest
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==5.2.3
+sphinx==5.3.0
     # via -r requirements/doc.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
@@ -200,7 +200,7 @@ sqlparse==0.4.3
     # via
     #   -r requirements/test.txt
     #   django
-stevedore==4.0.0
+stevedore==4.0.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -219,7 +219,7 @@ tomli==2.0.1
     #   pytest
 twine==4.0.1
     # via -r requirements/doc.in
-typing-extensions==4.3.0
+typing-extensions==4.4.0
     # via rich
 urllib3==1.26.12
     # via
@@ -228,5 +228,5 @@ urllib3==1.26.12
     #   twine
 webencodings==0.5.1
     # via bleach
-zipp==3.8.1
+zipp==3.9.0
     # via importlib-metadata
