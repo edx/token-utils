@@ -16,6 +16,14 @@ Unreleased
 
 *
 
+[0.2.0] - 2022-12-15
+************************************************
+
+Added
+=====
+
+* Added API function to sign access token
+* Added API function to unpack access token
 [0.1.0] - 2022-08-23
 ************************************************
 
