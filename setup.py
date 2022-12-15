@@ -101,7 +101,7 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding="u
 CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst'), encoding="utf8").read()
 
 setup(
-    name='token-utils',
+    name='edx-token-utils',
     version=VERSION,
     description="""App for the creation, signing, and decoding of various access tokens""",
     long_description=README + '\n\n' + CHANGELOG,
