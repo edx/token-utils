@@ -10,7 +10,7 @@ asgiref==3.5.2
     #   django
 attrs==22.1.0
     # via pytest
-certifi==2022.9.24
+certifi==2022.12.7
     # via
     #   -r requirements/base.txt
     #   requests
@@ -43,7 +43,7 @@ jinja2==3.1.2
     # via code-annotations
 markupsafe==2.1.1
     # via jinja2
-packaging==21.3
+packaging==22.0
     # via pytest
 pbr==5.11.0
     # via stevedore
@@ -55,8 +55,6 @@ pycryptodomex==3.16.0
     #   pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.txt
-pyparsing==3.0.9
-    # via packaging
 pytest==7.2.0
     # via
     #   pytest-cov
