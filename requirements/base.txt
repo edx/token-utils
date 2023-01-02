@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-asgiref==3.5.2
+asgiref==3.6.0
     # via django
 certifi==2022.12.7
     # via requests
@@ -22,7 +22,7 @@ pycryptodomex==3.16.0
     # via pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.in
-pytz==2022.6
+pytz==2022.7
     # via django
 requests==2.28.1
     # via pyjwkest
