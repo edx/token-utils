@@ -10,7 +10,7 @@ certifi==2022.12.7
     # via requests
 charset-normalizer==3.0.1
     # via requests
-django==3.2.16
+django==3.2.17
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
@@ -18,7 +18,7 @@ future==0.18.3
     # via pyjwkest
 idna==3.4
     # via requests
-pycryptodomex==3.16.0
+pycryptodomex==3.17
     # via pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.in
