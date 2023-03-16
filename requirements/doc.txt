@@ -26,7 +26,7 @@ certifi==2022.12.7
     #   requests
 cffi==1.15.1
     # via cryptography
-charset-normalizer==3.0.1
+charset-normalizer==3.1.0
     # via
     #   -r requirements/test.txt
     #   requests
@@ -36,11 +36,11 @@ click==8.1.3
     #   code-annotations
 code-annotations==1.3.0
     # via -r requirements/test.txt
-coverage[toml]==7.2.1
+coverage[toml]==7.2.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==39.0.1
+cryptography==39.0.2
     # via secretstorage
 django==3.2.18
     # via
@@ -54,7 +54,7 @@ docutils==0.19
     #   readme-renderer
     #   restructuredtext-lint
     #   sphinx
-exceptiongroup==1.1.0
+exceptiongroup==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -134,7 +134,7 @@ pyjwkest==1.4.2
     # via -r requirements/test.txt
 pyproject-hooks==1.0.0
     # via build
-pytest==7.2.1
+pytest==7.2.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -171,7 +171,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==13.3.1
+rich==13.3.2
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -223,7 +223,7 @@ twine==4.0.2
     # via -r requirements/doc.in
 typing-extensions==4.5.0
     # via rich
-urllib3==1.26.14
+urllib3==1.26.15
     # via
     #   -r requirements/test.txt
     #   requests
