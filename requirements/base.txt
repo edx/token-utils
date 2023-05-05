@@ -24,7 +24,7 @@ pyjwkest==1.4.2
     # via -r requirements/base.in
 pytz==2023.3
     # via django
-requests==2.28.2
+requests==2.29.0
     # via pyjwkest
 six==1.16.0
     # via pyjwkest
