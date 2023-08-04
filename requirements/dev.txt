@@ -21,7 +21,7 @@ certifi==2023.7.22
     # via
     #   -r requirements/quality.txt
     #   requests
-chardet==5.1.0
+chardet==5.2.0
     # via diff-cover
 charset-normalizer==3.2.0
     # via
@@ -62,7 +62,7 @@ django==3.2.20
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/quality.txt
     #   edx-i18n-tools
-edx-i18n-tools==1.0.0
+edx-i18n-tools==1.1.0
     # via -r requirements/dev.in
 edx-lint==5.3.4
     # via -r requirements/quality.txt
@@ -122,9 +122,9 @@ pbr==5.11.1
     # via
     #   -r requirements/quality.txt
     #   stevedore
-pip-tools==7.1.0
+pip-tools==7.2.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.9.1
+platformdirs==3.10.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
@@ -143,7 +143,7 @@ py==1.11.0
     # via
     #   -r requirements/ci.txt
     #   tox
-pycodestyle==2.10.0
+pycodestyle==2.11.0
     # via -r requirements/quality.txt
 pycryptodomex==3.18.0
     # via
@@ -155,7 +155,7 @@ pygments==2.15.1
     # via diff-cover
 pyjwkest==1.4.2
     # via -r requirements/quality.txt
-pylint==2.17.4
+pylint==2.17.5
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -240,7 +240,7 @@ tomli==2.0.1
     #   pyproject-hooks
     #   pytest
     #   tox
-tomlkit==0.11.8
+tomlkit==0.12.1
     # via
     #   -r requirements/quality.txt
     #   pylint
