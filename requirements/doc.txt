@@ -69,7 +69,7 @@ importlib-metadata==6.8.0
     #   keyring
     #   sphinx
     #   twine
-importlib-resources==6.0.0
+importlib-resources==6.0.1
     # via keyring
 iniconfig==2.0.0
     # via
@@ -120,7 +120,7 @@ pycryptodomex==3.18.0
     # via
     #   -r requirements/test.txt
     #   pyjwkest
-pygments==2.15.1
+pygments==2.16.1
     # via
     #   doc8
     #   readme-renderer
