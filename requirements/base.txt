@@ -18,7 +18,7 @@ future==0.18.3
     # via pyjwkest
 idna==3.4
     # via requests
-pycryptodomex==3.18.0
+pycryptodomex==3.19.0
     # via pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.in
@@ -30,7 +30,7 @@ six==1.16.0
     # via pyjwkest
 sqlparse==0.4.4
     # via django
-typing-extensions==4.7.1
+typing-extensions==4.8.0
     # via asgiref
 urllib3==2.0.4
     # via requests
