@@ -8,7 +8,7 @@ asgiref==3.7.2
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.15.6
+astroid==2.15.8
     # via
     #   pylint
     #   pylint-celery
@@ -100,7 +100,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.in
 pyjwkest==1.4.2
     # via -r requirements/test.txt
-pylint==2.17.5
+pylint==2.17.6
     # via
     #   edx-lint
     #   pylint-celery
@@ -172,7 +172,7 @@ typing-extensions==4.8.0
     #   asgiref
     #   astroid
     #   pylint
-urllib3==2.0.4
+urllib3==2.0.5
     # via
     #   -r requirements/test.txt
     #   requests
