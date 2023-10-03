@@ -23,7 +23,7 @@ certifi==2023.7.22
     #   requests
 chardet==5.2.0
     # via diff-cover
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
     # via
     #   -r requirements/quality.txt
     #   requests
@@ -43,7 +43,7 @@ code-annotations==1.5.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
-coverage[toml]==7.3.1
+coverage[toml]==7.3.2
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -112,7 +112,7 @@ mccabe==0.7.0
     # via
     #   -r requirements/quality.txt
     #   pylint
-packaging==23.1
+packaging==23.2
     # via
     #   -r requirements/ci.txt
     #   -r requirements/pip-tools.txt
@@ -128,7 +128,7 @@ pbr==5.11.1
     #   stevedore
 pip-tools==7.3.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.10.0
+platformdirs==3.11.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
@@ -159,7 +159,7 @@ pygments==2.16.1
     # via diff-cover
 pyjwkest==1.4.2
     # via -r requirements/quality.txt
-pylint==2.17.6
+pylint==2.17.7
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -261,7 +261,7 @@ typing-extensions==4.8.0
     #   asgiref
     #   astroid
     #   pylint
-urllib3==2.0.5
+urllib3==2.0.6
     # via
     #   -r requirements/quality.txt
     #   requests
