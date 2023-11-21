@@ -14,7 +14,7 @@ babel==2.13.1
     # via sphinx
 build==1.0.3
     # via -r requirements/doc.in
-certifi==2023.7.22
+certifi==2023.11.17
     # via
     #   -r requirements/test.txt
     #   requests
@@ -49,7 +49,7 @@ docutils==0.20.1
     #   readme-renderer
     #   restructuredtext-lint
     #   sphinx
-exceptiongroup==1.1.3
+exceptiongroup==1.2.0
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -86,7 +86,7 @@ jinja2==3.1.2
     #   -r requirements/test.txt
     #   code-annotations
     #   sphinx
-keyring==24.2.0
+keyring==24.3.0
     # via twine
 markdown-it-py==3.0.0
     # via rich
@@ -106,7 +106,7 @@ packaging==23.2
     #   build
     #   pytest
     #   sphinx
-pbr==5.11.1
+pbr==6.0.0
     # via
     #   -r requirements/test.txt
     #   stevedore
@@ -122,7 +122,7 @@ pycryptodomex==3.19.0
     # via
     #   -r requirements/test.txt
     #   pyjwkest
-pygments==2.16.1
+pygments==2.17.1
     # via
     #   doc8
     #   readme-renderer
@@ -139,7 +139,7 @@ pytest==7.4.3
     #   pytest-django
 pytest-cov==4.1.0
     # via -r requirements/test.txt
-pytest-django==4.6.0
+pytest-django==4.7.0
     # via -r requirements/test.txt
 python-slugify==8.0.1
     # via
@@ -169,7 +169,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==13.6.0
+rich==13.7.0
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -221,7 +221,7 @@ typing-extensions==4.8.0
     #   -r requirements/test.txt
     #   asgiref
     #   rich
-urllib3==2.0.7
+urllib3==2.1.0
     # via
     #   -r requirements/test.txt
     #   requests
