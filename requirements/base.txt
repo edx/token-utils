@@ -16,7 +16,7 @@ django==3.2.23
     #   -r requirements/base.in
 future==0.18.3
     # via pyjwkest
-idna==3.4
+idna==3.6
     # via requests
 pycryptodomex==3.19.0
     # via pyjwkest

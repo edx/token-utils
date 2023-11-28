@@ -53,7 +53,7 @@ future==0.18.3
     # via
     #   -r requirements/test.txt
     #   pyjwkest
-idna==3.4
+idna==3.6
     # via
     #   -r requirements/test.txt
     #   requests
