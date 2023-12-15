@@ -8,7 +8,7 @@ asgiref==3.7.2
     # via
     #   -r requirements/quality.txt
     #   django
-astroid==3.0.1
+astroid==3.0.2
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -54,7 +54,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.3.2
+coverage[toml]==7.3.3
     # via
     #   -r requirements/quality.txt
     #   coverage
@@ -65,7 +65,7 @@ dill==0.3.7
     # via
     #   -r requirements/quality.txt
     #   pylint
-distlib==0.3.7
+distlib==0.3.8
     # via
     #   -r requirements/ci.txt
     #   virtualenv
@@ -95,7 +95,7 @@ idna==3.6
     # via
     #   -r requirements/quality.txt
     #   requests
-importlib-metadata==6.8.0
+importlib-metadata==7.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
@@ -103,7 +103,7 @@ iniconfig==2.0.0
     # via
     #   -r requirements/quality.txt
     #   pytest
-isort==5.12.0
+isort==5.13.2
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -131,7 +131,7 @@ packaging==23.2
     #   pyproject-api
     #   pytest
     #   tox
-path==16.7.1
+path==16.9.0
     # via edx-i18n-tools
 pbr==6.0.0
     # via
@@ -139,9 +139,8 @@ pbr==6.0.0
     #   stevedore
 pip-tools==7.3.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.11.0
+platformdirs==4.1.0
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
     #   pylint
@@ -168,7 +167,7 @@ pygments==2.17.2
     # via diff-cover
 pyjwkest==1.4.2
     # via -r requirements/quality.txt
-pylint==3.0.2
+pylint==3.0.3
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -262,7 +261,7 @@ tomlkit==0.12.3
     #   pylint
 tox==4.11.4
     # via -r requirements/ci.txt
-typing-extensions==4.8.0
+typing-extensions==4.9.0
     # via
     #   -r requirements/quality.txt
     #   asgiref
@@ -272,7 +271,7 @@ urllib3==2.1.0
     # via
     #   -r requirements/quality.txt
     #   requests
-virtualenv==20.24.7
+virtualenv==20.25.0
     # via
     #   -r requirements/ci.txt
     #   tox
