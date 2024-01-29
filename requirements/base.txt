@@ -18,7 +18,7 @@ future==0.18.3
     # via pyjwkest
 idna==3.6
     # via requests
-pycryptodomex==3.19.1
+pycryptodomex==3.20.0
     # via pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.in
