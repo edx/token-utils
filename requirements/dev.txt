@@ -8,7 +8,7 @@ asgiref==3.7.2
     # via
     #   -r requirements/quality.txt
     #   django
-astroid==3.0.3
+astroid==3.1.0
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -17,7 +17,7 @@ build==1.0.3
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-cachetools==5.3.2
+cachetools==5.3.3
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -54,7 +54,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.4.1
+coverage[toml]==7.4.3
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -86,7 +86,7 @@ filelock==3.13.1
     #   -r requirements/ci.txt
     #   tox
     #   virtualenv
-future==0.18.3
+future==1.0.0
     # via
     #   -r requirements/quality.txt
     #   pyjwkest
@@ -166,7 +166,7 @@ pygments==2.17.2
     # via diff-cover
 pyjwkest==1.4.2
     # via -r requirements/quality.txt
-pylint==3.0.3
+pylint==3.1.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -195,7 +195,7 @@ pyproject-hooks==1.0.0
     #   -r requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==8.0.1
+pytest==8.0.2
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -234,7 +234,7 @@ sqlparse==0.4.4
     # via
     #   -r requirements/quality.txt
     #   django
-stevedore==5.1.0
+stevedore==5.2.0
     # via
     #   -r requirements/quality.txt
     #   code-annotations
@@ -255,13 +255,13 @@ tomli==2.0.1
     #   pyproject-hooks
     #   pytest
     #   tox
-tomlkit==0.12.3
+tomlkit==0.12.4
     # via
     #   -r requirements/quality.txt
     #   pylint
 tox==4.13.0
     # via -r requirements/ci.txt
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via
     #   -r requirements/quality.txt
     #   asgiref
@@ -271,7 +271,7 @@ urllib3==2.2.1
     # via
     #   -r requirements/quality.txt
     #   requests
-virtualenv==20.25.0
+virtualenv==20.25.1
     # via
     #   -r requirements/ci.txt
     #   tox
