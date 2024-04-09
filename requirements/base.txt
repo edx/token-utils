@@ -30,7 +30,7 @@ six==1.16.0
     # via pyjwkest
 sqlparse==0.4.4
     # via django
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via asgiref
 urllib3==2.2.1
     # via requests
