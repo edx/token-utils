@@ -12,8 +12,9 @@ astroid==3.1.0
     # via
     #   pylint
     #   pylint-celery
-backports-zoneinfo==0.2.1
+backports-zoneinfo==0.2.1 ; python_version < "3.9"
     # via
+    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   django
 certifi==2024.2.2
@@ -32,7 +33,7 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.7.0
+code-annotations==1.8.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -164,7 +165,7 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.12.4
     # via pylint
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via
     #   -r requirements/test.txt
     #   asgiref
