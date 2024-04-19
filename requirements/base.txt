@@ -18,7 +18,7 @@ django==4.2.11
     #   -r requirements/base.in
 future==1.0.0
     # via pyjwkest
-idna==3.6
+idna==3.7
     # via requests
 pycryptodomex==3.20.0
     # via pyjwkest
@@ -28,7 +28,7 @@ requests==2.31.0
     # via pyjwkest
 six==1.16.0
     # via pyjwkest
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via django
 typing-extensions==4.11.0
     # via asgiref
