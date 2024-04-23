@@ -81,7 +81,7 @@ edx-i18n-tools==1.5.0
     # via -r requirements/dev.in
 edx-lint==5.3.6
     # via -r requirements/quality.txt
-exceptiongroup==1.2.0
+exceptiongroup==1.2.1
     # via
     #   -r requirements/quality.txt
     #   pytest
@@ -150,7 +150,7 @@ platformdirs==4.2.0
     #   pylint
     #   tox
     #   virtualenv
-pluggy==1.4.0
+pluggy==1.5.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
@@ -272,7 +272,7 @@ urllib3==2.2.1
     # via
     #   -r requirements/quality.txt
     #   requests
-virtualenv==20.25.1
+virtualenv==20.25.3
     # via
     #   -r requirements/ci.txt
     #   tox
