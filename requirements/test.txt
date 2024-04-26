@@ -24,12 +24,12 @@ click==8.1.7
     # via code-annotations
 code-annotations==1.8.0
     # via -r requirements/test.in
-coverage[toml]==7.4.4
+coverage[toml]==7.5.0
     # via pytest-cov
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
-exceptiongroup==1.2.0
+exceptiongroup==1.2.1
     # via pytest
 future==1.0.0
     # via
@@ -49,7 +49,7 @@ packaging==24.0
     # via pytest
 pbr==6.0.0
     # via stevedore
-pluggy==1.4.0
+pluggy==1.5.0
     # via pytest
 pycryptodomex==3.20.0
     # via
