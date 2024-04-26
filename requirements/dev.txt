@@ -60,6 +60,7 @@ colorama==0.4.6
     #   tox
 coverage[toml]==7.4.4
     # via
+    #   -r requirements/ci.txt
     #   -r requirements/quality.txt
     #   pytest-cov
 diff-cover==9.0.0
