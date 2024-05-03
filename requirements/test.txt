@@ -57,7 +57,7 @@ pycryptodomex==3.20.0
     #   pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.txt
-pytest==8.1.2
+pytest==8.2.0
     # via
     #   pytest-cov
     #   pytest-django
