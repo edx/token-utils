@@ -12,7 +12,7 @@ certifi==2024.2.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
-django==4.2.11
+django==4.2.13
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in

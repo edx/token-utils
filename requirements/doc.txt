@@ -42,7 +42,7 @@ coverage[toml]==7.5.1
     #   pytest-cov
 cryptography==42.0.7
     # via secretstorage
-django==4.2.11
+django==4.2.13
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -96,7 +96,7 @@ jinja2==3.1.4
     #   -r requirements/test.txt
     #   code-annotations
     #   sphinx
-keyring==25.2.0
+keyring==25.2.1
     # via twine
 markdown-it-py==3.0.0
     # via rich
