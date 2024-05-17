@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/test.txt
     #   django
-astroid==3.1.0
+astroid==3.2.0
     # via
     #   pylint
     #   pylint-celery
@@ -42,7 +42,7 @@ coverage[toml]==7.5.1
     #   pytest-cov
 dill==0.3.8
     # via pylint
-django==4.2.11
+django==4.2.13
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -102,7 +102,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.in
 pyjwkest==1.4.2
     # via -r requirements/test.txt
-pylint==3.1.0
+pylint==3.2.0
     # via
     #   edx-lint
     #   pylint-celery
@@ -162,7 +162,7 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.12.4
+tomlkit==0.12.5
     # via pylint
 typing-extensions==4.11.0
     # via
