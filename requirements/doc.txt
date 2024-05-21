@@ -144,7 +144,7 @@ pyjwkest==1.4.2
     # via -r requirements/test.txt
 pyproject-hooks==1.1.0
     # via build
-pytest==8.2.0
+pytest==8.2.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -165,7 +165,7 @@ pyyaml==6.0.1
     #   code-annotations
 readme-renderer==43.0
     # via twine
-requests==2.31.0
+requests==2.32.1
     # via
     #   -r requirements/test.txt
     #   pyjwkest
@@ -222,7 +222,7 @@ tomli==2.0.1
     #   coverage
     #   doc8
     #   pytest
-twine==5.0.0
+twine==5.1.0
     # via -r requirements/doc.in
 typing-extensions==4.11.0
     # via
@@ -234,7 +234,7 @@ urllib3==2.2.1
     #   -r requirements/test.txt
     #   requests
     #   twine
-zipp==3.18.1
+zipp==3.18.2
     # via
     #   importlib-metadata
     #   importlib-resources
