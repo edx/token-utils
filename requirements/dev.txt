@@ -58,7 +58,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.5.1
+coverage[toml]==7.5.3
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
@@ -223,7 +223,7 @@ pyyaml==6.0.1
     #   -r requirements/quality.txt
     #   code-annotations
     #   edx-i18n-tools
-requests==2.32.1
+requests==2.32.2
     # via
     #   -r requirements/quality.txt
     #   pyjwkest
@@ -266,7 +266,7 @@ tomlkit==0.12.5
     #   pylint
 tox==4.15.0
     # via -r requirements/ci.txt
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via
     #   -r requirements/quality.txt
     #   asgiref
@@ -284,7 +284,7 @@ wheel==0.43.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-zipp==3.18.2
+zipp==3.19.0
     # via
     #   -r requirements/pip-tools.txt
     #   importlib-metadata

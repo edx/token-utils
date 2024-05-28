@@ -36,7 +36,7 @@ click==8.1.7
     #   code-annotations
 code-annotations==1.8.0
     # via -r requirements/test.txt
-coverage[toml]==7.5.1
+coverage[toml]==7.5.3
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -165,7 +165,7 @@ pyyaml==6.0.1
     #   code-annotations
 readme-renderer==43.0
     # via twine
-requests==2.32.1
+requests==2.32.2
     # via
     #   -r requirements/test.txt
     #   pyjwkest
@@ -224,7 +224,7 @@ tomli==2.0.1
     #   pytest
 twine==5.1.0
     # via -r requirements/doc.in
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via
     #   -r requirements/test.txt
     #   asgiref
@@ -234,7 +234,7 @@ urllib3==2.2.1
     #   -r requirements/test.txt
     #   requests
     #   twine
-zipp==3.18.2
+zipp==3.19.0
     # via
     #   importlib-metadata
     #   importlib-resources
