@@ -131,7 +131,7 @@ mccabe==0.7.0
     # via
     #   -r requirements/quality.txt
     #   pylint
-packaging==24.0
+packaging==24.1
     # via
     #   -r requirements/ci.txt
     #   -r requirements/pip-tools.txt
@@ -176,7 +176,7 @@ pygments==2.18.0
     # via diff-cover
 pyjwkest==1.4.2
     # via -r requirements/quality.txt
-pylint==3.2.2
+pylint==3.2.3
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -264,9 +264,9 @@ tomlkit==0.12.5
     # via
     #   -r requirements/quality.txt
     #   pylint
-tox==4.15.0
+tox==4.15.1
     # via -r requirements/ci.txt
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via
     #   -r requirements/quality.txt
     #   asgiref
@@ -284,7 +284,7 @@ wheel==0.43.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-zipp==3.19.1
+zipp==3.19.2
     # via
     #   -r requirements/pip-tools.txt
     #   importlib-metadata

@@ -45,7 +45,7 @@ jinja2==3.1.4
     # via code-annotations
 markupsafe==2.1.5
     # via jinja2
-packaging==24.0
+packaging==24.1
     # via pytest
 pbr==6.0.0
     # via stevedore
@@ -89,7 +89,7 @@ tomli==2.0.1
     # via
     #   coverage
     #   pytest
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via
     #   -r requirements/base.txt
     #   asgiref
