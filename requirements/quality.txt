@@ -78,7 +78,7 @@ markupsafe==2.1.5
     #   jinja2
 mccabe==0.7.0
     # via pylint
-packaging==24.0
+packaging==24.1
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -102,7 +102,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.in
 pyjwkest==1.4.2
     # via -r requirements/test.txt
-pylint==3.2.2
+pylint==3.2.3
     # via
     #   edx-lint
     #   pylint-celery
@@ -164,7 +164,7 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.12.5
     # via pylint
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via
     #   -r requirements/test.txt
     #   asgiref
