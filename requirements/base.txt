@@ -8,11 +8,11 @@ asgiref==3.8.1
     # via django
 backports-zoneinfo==0.2.1
     # via django
-certifi==2024.6.2
+certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
     # via requests
-django==4.2.13
+django==4.2.14
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
