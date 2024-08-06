@@ -58,7 +58,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.6.0
+coverage[toml]==7.6.1
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
@@ -73,12 +73,12 @@ distlib==0.3.8
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-django==4.2.14
+django==4.2.15
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/quality.txt
     #   edx-i18n-tools
-edx-i18n-tools==1.6.1
+edx-i18n-tools==1.6.2
     # via -r requirements/dev.in
 edx-lint==5.3.7
     # via -r requirements/quality.txt
@@ -117,12 +117,8 @@ jinja2==3.1.4
     #   -r requirements/quality.txt
     #   code-annotations
     #   diff-cover
-lxml[html-clean,html_clean]==5.2.2
-    # via
-    #   edx-i18n-tools
-    #   lxml-html-clean
-lxml-html-clean==0.2.0
-    # via lxml
+lxml==5.2.2
+    # via edx-i18n-tools
 markupsafe==2.1.5
     # via
     #   -r requirements/quality.txt
@@ -140,7 +136,7 @@ packaging==24.1
     #   pyproject-api
     #   pytest
     #   tox
-path==17.0.0
+path==16.16.0
     # via edx-i18n-tools
 pbr==6.0.0
     # via
@@ -164,7 +160,7 @@ pluggy==1.5.0
     #   tox
 polib==1.2.0
     # via edx-i18n-tools
-pycodestyle==2.12.0
+pycodestyle==2.12.1
     # via -r requirements/quality.txt
 pycryptodomex==3.20.0
     # via
@@ -264,7 +260,7 @@ tomlkit==0.13.0
     # via
     #   -r requirements/quality.txt
     #   pylint
-tox==4.16.0
+tox==4.17.0
     # via -r requirements/ci.txt
 typing-extensions==4.12.2
     # via
@@ -280,7 +276,7 @@ virtualenv==20.26.3
     # via
     #   -r requirements/ci.txt
     #   tox
-wheel==0.43.0
+wheel==0.44.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
