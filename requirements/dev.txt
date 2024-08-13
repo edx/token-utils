@@ -99,9 +99,8 @@ idna==3.7
     # via
     #   -r requirements/quality.txt
     #   requests
-importlib-metadata==6.11.0
+importlib-metadata==8.2.0
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/pip-tools.txt
     #   build
 iniconfig==2.0.0
@@ -117,7 +116,7 @@ jinja2==3.1.4
     #   -r requirements/quality.txt
     #   code-annotations
     #   diff-cover
-lxml==5.2.2
+lxml==5.3.0
     # via edx-i18n-tools
 markupsafe==2.1.5
     # via
@@ -214,7 +213,7 @@ python-slugify==8.0.4
     # via
     #   -r requirements/quality.txt
     #   code-annotations
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via
     #   -r requirements/quality.txt
     #   code-annotations
@@ -260,7 +259,7 @@ tomlkit==0.13.0
     # via
     #   -r requirements/quality.txt
     #   pylint
-tox==4.17.0
+tox==4.17.1
     # via -r requirements/ci.txt
 typing-extensions==4.12.2
     # via
@@ -280,7 +279,7 @@ wheel==0.44.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-zipp==3.19.2
+zipp==3.20.0
     # via
     #   -r requirements/pip-tools.txt
     #   importlib-metadata
