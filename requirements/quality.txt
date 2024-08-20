@@ -162,7 +162,7 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.13.0
+tomlkit==0.13.2
     # via pylint
 typing-extensions==4.12.2
     # via

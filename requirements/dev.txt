@@ -21,7 +21,7 @@ build==1.2.1
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-cachetools==5.4.0
+cachetools==5.5.0
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -99,7 +99,7 @@ idna==3.7
     # via
     #   -r requirements/quality.txt
     #   requests
-importlib-metadata==8.2.0
+importlib-metadata==8.3.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
@@ -255,11 +255,11 @@ tomli==2.0.1
     #   pyproject-api
     #   pytest
     #   tox
-tomlkit==0.13.0
+tomlkit==0.13.2
     # via
     #   -r requirements/quality.txt
     #   pylint
-tox==4.17.1
+tox==4.18.0
     # via -r requirements/ci.txt
 typing-extensions==4.12.2
     # via
