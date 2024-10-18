@@ -9,11 +9,11 @@
 | token\_utils/apps.py               |        3 |        0 |        0 |        0 |    100% |           |
 | token\_utils/models.py             |        0 |        0 |        0 |        0 |    100% |           |
 | token\_utils/sign.py               |       18 |        0 |        0 |        0 |    100% |           |
-| token\_utils/tests/test\_sign.py   |       39 |        0 |        2 |        0 |    100% |           |
-| token\_utils/tests/test\_unpack.py |       59 |        0 |       12 |        0 |    100% |           |
+| token\_utils/tests/test\_sign.py   |       39 |        0 |        0 |        0 |    100% |           |
+| token\_utils/tests/test\_unpack.py |       59 |        0 |        0 |        0 |    100% |           |
 | token\_utils/unpack.py             |       21 |        0 |        8 |        0 |    100% |           |
 | token\_utils/urls.py               |        3 |        3 |        0 |        0 |      0% |       4-7 |
-|                          **TOTAL** |  **151** |    **3** |   **22** |    **0** | **98%** |           |
+|                          **TOTAL** |  **151** |    **3** |    **8** |    **0** | **98%** |           |
 
 
 ## Setup coverage badge
