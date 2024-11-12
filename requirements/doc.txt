@@ -32,11 +32,11 @@ click==8.1.7
     #   code-annotations
 code-annotations==1.8.0
     # via -r requirements/test.txt
-coverage[toml]==7.6.3
+coverage[toml]==7.6.4
     # via
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==43.0.1
+cryptography==43.0.3
     # via secretstorage
 django==4.2.16
     # via
@@ -83,11 +83,11 @@ jinja2==3.1.4
     #   -r requirements/test.txt
     #   code-annotations
     #   sphinx
-keyring==25.4.1
+keyring==25.5.0
     # via twine
 markdown-it-py==3.0.0
     # via rich
-markupsafe==3.0.1
+markupsafe==3.0.2
     # via
     #   -r requirements/test.txt
     #   jinja2
@@ -99,7 +99,7 @@ more-itertools==10.5.0
     #   jaraco-functools
 nh3==0.2.18
     # via readme-renderer
-packaging==24.1
+packaging==24.2
     # via
     #   -r requirements/test.txt
     #   build
@@ -136,7 +136,7 @@ pytest==8.3.3
     #   -r requirements/test.txt
     #   pytest-cov
     #   pytest-django
-pytest-cov==5.0.0
+pytest-cov==6.0.0
     # via -r requirements/test.txt
 pytest-django==4.9.0
     # via -r requirements/test.txt
@@ -163,7 +163,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==13.9.2
+rich==13.9.4
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -207,5 +207,5 @@ urllib3==2.2.3
     #   -r requirements/test.txt
     #   requests
     #   twine
-zipp==3.20.2
+zipp==3.21.0
     # via importlib-metadata
