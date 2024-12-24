@@ -28,5 +28,5 @@ six==1.17.0
     # via pyjwkest
 sqlparse==0.5.3
     # via django
-urllib3==2.2.3
+urllib3==2.3.0
     # via requests
