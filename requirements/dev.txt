@@ -159,7 +159,7 @@ pycryptodomex==3.21.0
     #   pyjwkest
 pydocstyle==6.3.0
     # via -r requirements/quality.txt
-pygments==2.18.0
+pygments==2.19.1
     # via diff-cover
 pyjwkest==1.4.2
     # via -r requirements/quality.txt
@@ -241,11 +241,12 @@ tomlkit==0.13.2
     #   pylint
 tox==4.23.2
     # via -r requirements/ci.txt
-urllib3==2.3.0
+urllib3==2.2.3
     # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/quality.txt
     #   requests
-virtualenv==20.28.0
+virtualenv==20.28.1
     # via
     #   -r requirements/ci.txt
     #   tox
