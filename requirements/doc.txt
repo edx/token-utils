@@ -120,7 +120,7 @@ pycryptodomex==3.21.0
     # via
     #   -r requirements/test.txt
     #   pyjwkest
-pygments==2.18.0
+pygments==2.19.1
     # via
     #   doc8
     #   readme-renderer
@@ -201,8 +201,9 @@ text-unidecode==1.3
     #   python-slugify
 twine==6.0.1
     # via -r requirements/doc.in
-urllib3==2.3.0
+urllib3==2.2.3
     # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
     #   requests
     #   twine

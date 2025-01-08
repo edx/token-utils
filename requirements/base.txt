@@ -28,5 +28,7 @@ six==1.17.0
     # via pyjwkest
 sqlparse==0.5.3
     # via django
-urllib3==2.3.0
-    # via requests
+urllib3==2.2.3
+    # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   requests
