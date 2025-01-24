@@ -30,7 +30,7 @@ click==8.1.8
     # via
     #   -r requirements/test.txt
     #   code-annotations
-code-annotations==2.1.0
+code-annotations==2.2.0
     # via -r requirements/test.txt
 coverage[toml]==7.6.10
     # via
@@ -60,7 +60,7 @@ idna==3.10
     #   requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==8.5.0
+importlib-metadata==8.6.1
     # via keyring
 iniconfig==2.0.0
     # via
@@ -91,7 +91,7 @@ markupsafe==3.0.2
     #   jinja2
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.5.0
+more-itertools==10.6.0
     # via
     #   jaraco-classes
     #   jaraco-functools
