@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/quality.txt
     #   django
-astroid==3.3.8
+astroid==3.3.9
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -59,7 +59,7 @@ coverage[toml]==7.6.12
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
     #   pytest-cov
-diff-cover==9.2.3
+diff-cover==9.2.4
     # via -r requirements/dev.in
 dill==0.3.9
     # via
@@ -69,7 +69,7 @@ distlib==0.3.9
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-django==4.2.19
+django==4.2.20
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/quality.txt
@@ -95,11 +95,11 @@ iniconfig==2.0.0
     # via
     #   -r requirements/quality.txt
     #   pytest
-isort==6.0.0
+isort==6.0.1
     # via
     #   -r requirements/quality.txt
     #   pylint
-jinja2==3.1.5
+jinja2==3.1.6
     # via
     #   -r requirements/quality.txt
     #   code-annotations
@@ -163,7 +163,7 @@ pygments==2.19.1
     # via diff-cover
 pyjwkest==1.4.2
     # via -r requirements/quality.txt
-pylint==3.3.4
+pylint==3.3.5
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -192,7 +192,7 @@ pyproject-hooks==1.2.0
     #   -r requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==8.3.4
+pytest==8.3.5
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -239,14 +239,14 @@ tomlkit==0.13.2
     # via
     #   -r requirements/quality.txt
     #   pylint
-tox==4.24.1
+tox==4.24.2
     # via -r requirements/ci.txt
 urllib3==2.2.3
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/quality.txt
     #   requests
-virtualenv==20.29.2
+virtualenv==20.29.3
     # via
     #   -r requirements/ci.txt
     #   tox
