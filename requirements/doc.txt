@@ -32,7 +32,7 @@ click==8.1.8
     #   code-annotations
 code-annotations==2.2.0
     # via -r requirements/test.txt
-coverage[toml]==7.6.12
+coverage[toml]==7.7.0
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -116,7 +116,7 @@ pluggy==1.5.0
     #   pytest
 pycparser==2.22
     # via cffi
-pycryptodomex==3.21.0
+pycryptodomex==3.22.0
     # via
     #   -r requirements/test.txt
     #   pyjwkest

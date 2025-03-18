@@ -54,7 +54,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.6.12
+coverage[toml]==7.7.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
@@ -78,7 +78,7 @@ edx-i18n-tools==1.6.3
     # via -r requirements/dev.in
 edx-lint==5.6.0
     # via -r requirements/quality.txt
-filelock==3.17.0
+filelock==3.18.0
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -153,7 +153,7 @@ polib==1.2.0
     # via edx-i18n-tools
 pycodestyle==2.12.1
     # via -r requirements/quality.txt
-pycryptodomex==3.21.0
+pycryptodomex==3.22.0
     # via
     #   -r requirements/quality.txt
     #   pyjwkest
