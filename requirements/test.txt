@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/base.txt
     #   django
-certifi==2025.1.31
+certifi==2025.4.26
     # via
     #   -r requirements/base.txt
     #   requests
@@ -18,7 +18,7 @@ charset-normalizer==3.4.1
     #   requests
 click==8.1.8
     # via code-annotations
-code-annotations==2.2.0
+code-annotations==2.3.0
     # via -r requirements/test.in
 coverage[toml]==7.8.0
     # via pytest-cov
@@ -39,7 +39,7 @@ jinja2==3.1.6
     # via code-annotations
 markupsafe==3.0.2
     # via jinja2
-packaging==24.2
+packaging==25.0
     # via pytest
 pbr==6.1.1
     # via stevedore
@@ -51,13 +51,15 @@ pycryptodomex==3.22.0
     #   pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.txt
+pyjwt==2.10.1
+    # via -r requirements/base.txt
 pytest==8.3.5
     # via
     #   pytest-cov
     #   pytest-django
-pytest-cov==6.1.0
+pytest-cov==6.1.1
     # via -r requirements/test.in
-pytest-django==4.10.0
+pytest-django==4.11.1
     # via -r requirements/test.in
 python-slugify==8.0.4
     # via code-annotations
