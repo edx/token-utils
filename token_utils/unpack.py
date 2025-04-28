@@ -4,9 +4,10 @@ Token unpacking and verifying functions.
 
 from time import time
 
+import jwt
 from django.conf import settings
-from jwkest import Expired, Invalid, MissingKey, jwk
-from jwkest.jws import JWS
+from jwt.api_jwk import PyJWK, PyJWKSet
+from jwt.utils import base64url_encode
 
 
 def unpack_jwt(token, lms_user_id, now=None):
@@ -43,7 +44,17 @@ def _unpack_and_verify(token):
 
     The signing key and algorithm are pulled from settings.
     """
-    keys = jwk.KEYS()
-    keys.load_jwks(settings.TOKEN_SIGNING['JWT_PUBLIC_SIGNING_JWK_SET'])
-    decoded = JWS().verify_compact(token.encode('utf-8'), keys)
-    return decoded
+    key_set = []
+    key_set.extend(PyJWKSet.from_json(settings.TOKEN_SIGNING['JWT_PUBLIC_SIGNING_JWK_SET']).keys)
+
+    for i in range(0, len(key_set)):
+        try:
+            decoded = jwt.decode(
+                    token,
+                    key=key_set[i].key,
+                    algorithms=['RS256', 'RS512',],
+                )
+            return decoded
+        except Exception:  # pylint: disable=broad-except
+            if i == len(key_set) - 1:
+                raise
