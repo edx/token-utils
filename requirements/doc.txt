@@ -128,6 +128,8 @@ pygments==2.19.1
     #   sphinx
 pyjwkest==1.4.2
     # via -r requirements/test.txt
+pyjwt==2.10.1
+    # via -r requirements/test.txt
 pyproject-hooks==1.2.0
     # via build
 pytest==8.3.5

@@ -4,3 +4,4 @@
 Django             # Web application framework
 pyjwkest           # JWT token signing and validation
 pyjwt              # JWT token signing and validation
+cryptography       # For pyjwt

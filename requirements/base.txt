@@ -22,6 +22,8 @@ pycryptodomex==3.22.0
     # via pyjwkest
 pyjwkest==1.4.2
     # via -r requirements/base.in
+pyjwt==2.10.1
+    # via -r requirements/base.in
 requests==2.32.3
     # via pyjwkest
 six==1.17.0
