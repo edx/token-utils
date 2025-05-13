@@ -3,9 +3,10 @@ Tests for token unpacking and verifying.
 """
 
 import unittest
+from time import time
 from unittest.mock import patch
 
-from jwkest import BadSignature, Expired, Invalid, MissingKey
+from jwt.exceptions import ExpiredSignatureError, InvalidSignatureError, MissingRequiredClaimError
 
 from token_utils import api
 from token_utils.sign import _encode_and_sign, create_jwt
@@ -13,13 +14,13 @@ from token_utils.unpack import unpack_jwt
 
 test_user_id = 121
 invalid_test_user_id = 120
-test_timeout = 60
-test_now = 1661432902
+test_timeout = 1000
+test_now = int(time())
 test_claims = {"foo": "bar", "baz": "quux", "meaning": 42}
 expected_full_token = {
     "lms_user_id": test_user_id,
-    "iat": 1661432902,
-    "exp": 1661432902 + 60,
+    "iat": test_now,
+    "exp": test_now + test_timeout,
     "iss": "token-test-issuer",  # these lines from test_settings.py
     "version": "1.2.0",  # these lines from test_settings.py
 }
@@ -49,7 +50,7 @@ class TestUnpack(unittest.TestCase):
         expected_token_with_claims = expected_full_token.copy()
         expected_token_with_claims.update(test_claims)
 
-        with self.assertRaises(BadSignature):
+        with self.assertRaises(InvalidSignatureError):
             unpack_jwt(token, test_user_id, test_now)
 
     @patch('token_utils.api.unpack_jwt')
@@ -69,13 +70,13 @@ class TestUnpack(unittest.TestCase):
     def test_unpack_token_with_invalid_user(self):
         token = create_jwt(invalid_test_user_id, test_timeout, {}, test_now)
 
-        with self.assertRaises(Invalid):
+        with self.assertRaises(InvalidSignatureError):
             unpack_jwt(token, test_user_id, test_now)
 
     def test_unpack_expired_token(self):
         token = create_jwt(test_user_id, test_timeout, {}, test_now)
 
-        with self.assertRaises(Expired):
+        with self.assertRaises(ExpiredSignatureError):
             unpack_jwt(token, test_user_id, test_now + test_timeout + 1)
 
     def test_missing_expired_lms_user_id(self):
@@ -83,7 +84,7 @@ class TestUnpack(unittest.TestCase):
         del payload['lms_user_id']
         token = _encode_and_sign(payload)
 
-        with self.assertRaises(MissingKey):
+        with self.assertRaises(MissingRequiredClaimError):
             unpack_jwt(token, test_user_id, test_now)
 
     def test_missing_expired_key(self):
@@ -91,5 +92,5 @@ class TestUnpack(unittest.TestCase):
         del payload['exp']
         token = _encode_and_sign(payload)
 
-        with self.assertRaises(MissingKey):
+        with self.assertRaises(MissingRequiredClaimError):
             unpack_jwt(token, test_user_id, test_now)

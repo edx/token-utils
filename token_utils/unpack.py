@@ -6,8 +6,8 @@ from time import time
 
 import jwt
 from django.conf import settings
-from jwt.api_jwk import PyJWK, PyJWKSet
-from jwt.utils import base64url_encode
+from jwt.api_jwk import PyJWKSet
+from jwt.exceptions import ExpiredSignatureError, InvalidSignatureError, MissingRequiredClaimError
 
 
 def unpack_jwt(token, lms_user_id, now=None):
@@ -24,21 +24,21 @@ def unpack_jwt(token, lms_user_id, now=None):
     Returns a valid, decoded json payload (string).
     """
     now = now or int(time())
-    payload = _unpack_and_verify(token)
+    payload = unpack_and_verify(token)
 
     if "lms_user_id" not in payload:
-        raise MissingKey("LMS user id is missing")
+        raise MissingRequiredClaimError("LMS user id is missing")
     if "exp" not in payload:
-        raise MissingKey("Expiration is missing")
+        raise MissingRequiredClaimError("Expiration is missing")
     if payload["lms_user_id"] != lms_user_id:
-        raise Invalid("User does not match")
+        raise InvalidSignatureError("User does not match")
     if payload["exp"] < now:
-        raise Expired("Token is expired")
+        raise ExpiredSignatureError("Token is expired")
 
     return payload
 
 
-def _unpack_and_verify(token):
+def unpack_and_verify(token):  # pylint: disable=inconsistent-return-statements
     """
     Unpack and verify the provided token.
 
@@ -47,14 +47,18 @@ def _unpack_and_verify(token):
     key_set = []
     key_set.extend(PyJWKSet.from_json(settings.TOKEN_SIGNING['JWT_PUBLIC_SIGNING_JWK_SET']).keys)
 
-    for i in range(0, len(key_set)):
+    for i in range(len(key_set)):  # pylint: disable=consider-using-enumerate
         try:
             decoded = jwt.decode(
                     token,
                     key=key_set[i].key,
                     algorithms=['RS256', 'RS512',],
+                    options={
+                        'verify_signature': True,
+                        'verify_aud': False
+                    }
                 )
             return decoded
-        except Exception:  # pylint: disable=broad-except
+        except Exception:  # pylint: disable=useless-suppression
             if i == len(key_set) - 1:
                 raise
