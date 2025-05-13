@@ -2,12 +2,11 @@
 Token creation and signing functions.
 """
 
-import json
 from time import time
 
 import jwt
 from django.conf import settings
-from jwt.api_jwk import PyJWK, PyJWKSet
+from jwt.api_jwk import PyJWK
 
 
 def create_jwt(lms_user_id, expires_in_seconds, additional_token_claims, now=None):
@@ -42,5 +41,4 @@ def _encode_and_sign(payload):
     """
     private_key = PyJWK.from_json(settings.TOKEN_SIGNING['JWT_PRIVATE_SIGNING_JWK'])
     algorithm = settings.TOKEN_SIGNING['JWT_SIGNING_ALGORITHM']
-    data = json.dumps(payload)
-    return jwt.encode(data, key=private_key.key, algorithm=algorithm)
+    return jwt.encode(payload, key=private_key.key, algorithm=algorithm)
