@@ -16,11 +16,11 @@ charset-normalizer==3.4.2
     # via
     #   -r requirements/base.txt
     #   requests
-click==8.1.8
+click==8.2.1
     # via code-annotations
 code-annotations==2.3.0
     # via -r requirements/test.in
-coverage[toml]==7.8.0
+coverage[toml]==7.8.2
     # via pytest-cov
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
@@ -43,15 +43,17 @@ packaging==25.0
     # via pytest
 pbr==6.1.1
     # via stevedore
-pluggy==1.5.0
+pluggy==1.6.0
     # via pytest
-pycryptodomex==3.22.0
+pycryptodomex==3.23.0
     # via
     #   -r requirements/base.txt
     #   pyjwkest
+pygments==2.19.1
+    # via pytest
 pyjwkest==1.4.2
     # via -r requirements/base.txt
-pytest==8.3.5
+pytest==8.4.0
     # via
     #   pytest-cov
     #   pytest-django
