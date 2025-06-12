@@ -8,12 +8,12 @@
 | token\_utils/api.py                |        6 |        0 |        0 |        0 |    100% |           |
 | token\_utils/apps.py               |        3 |        0 |        0 |        0 |    100% |           |
 | token\_utils/models.py             |        0 |        0 |        0 |        0 |    100% |           |
-| token\_utils/sign.py               |       18 |        0 |        0 |        0 |    100% |           |
-| token\_utils/tests/test\_sign.py   |       39 |        0 |        0 |        0 |    100% |           |
-| token\_utils/tests/test\_unpack.py |       59 |        0 |        0 |        0 |    100% |           |
-| token\_utils/unpack.py             |       21 |        0 |        8 |        0 |    100% |           |
+| token\_utils/sign.py               |       13 |        0 |        0 |        0 |    100% |           |
+| token\_utils/tests/test\_sign.py   |       34 |        0 |        0 |        0 |    100% |           |
+| token\_utils/tests/test\_unpack.py |       60 |        0 |        0 |        0 |    100% |           |
+| token\_utils/unpack.py             |       27 |        0 |       12 |        1 |     97% |  50->exit |
 | token\_utils/urls.py               |        3 |        3 |        0 |        0 |      0% |       4-7 |
-|                          **TOTAL** |  **151** |    **3** |    **8** |    **0** | **98%** |           |
+|                          **TOTAL** |  **148** |    **3** |   **12** |    **1** | **98%** |           |
 
 
 ## Setup coverage badge
