@@ -4,11 +4,11 @@
 #
 #    make upgrade
 #
-asgiref==3.8.1
+asgiref==3.9.1
     # via django
 cffi==1.17.1
     # via cryptography
-cryptography==45.0.4
+cryptography==45.0.5
     # via -r requirements/base.in
 django==4.2.23
     # via
