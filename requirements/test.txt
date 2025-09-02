@@ -16,9 +16,9 @@ click==8.2.1
     # via code-annotations
 code-annotations==2.3.0
     # via -r requirements/test.in
-coverage[toml]==7.10.5
+coverage[toml]==7.10.6
     # via pytest-cov
-cryptography==45.0.6
+cryptography==45.0.7
     # via -r requirements/base.txt
     # via
     #   -c https:/raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
