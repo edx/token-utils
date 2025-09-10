@@ -6,15 +6,15 @@
 #
 asgiref==3.9.1
     # via django
-cffi==1.17.1
+cffi==2.0.0
     # via cryptography
-cryptography==45.0.6
+cryptography==45.0.7
     # via -r requirements/base.in
-django==4.2.23
+django==4.2.24
     # via
     #   -c https:/raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
-pycparser==2.22
+pycparser==2.23
     # via cffi
 pyjwt==2.10.1
     # via -r requirements/base.in
