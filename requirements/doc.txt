@@ -156,7 +156,7 @@ rich==14.1.0
     # via twine
 roman-numerals-py==3.1.0
     # via sphinx
-secretstorage==3.3.3
+secretstorage==3.4.0
     # via keyring
 snowballstemmer==3.0.1
     # via sphinx
