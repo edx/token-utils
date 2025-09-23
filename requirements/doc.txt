@@ -6,7 +6,7 @@
 #
 alabaster==1.0.0
     # via sphinx
-asgiref==3.9.1
+asgiref==3.9.2
     # via
     #   -r requirements/test.txt
     #   django
@@ -24,17 +24,17 @@ cffi==2.0.0
     #   cryptography
 charset-normalizer==3.4.3
     # via requests
-click==8.2.1
+click==8.3.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
 code-annotations==2.3.0
     # via -r requirements/test.txt
-coverage[toml]==7.10.6
+coverage[toml]==7.10.7
     # via
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==45.0.7
+cryptography==46.0.1
     # via
     #   -r requirements/test.txt
     #   secretstorage
@@ -156,7 +156,7 @@ rich==14.1.0
     # via twine
 roman-numerals-py==3.1.0
     # via sphinx
-secretstorage==3.3.3
+secretstorage==3.4.0
     # via keyring
 snowballstemmer==3.0.1
     # via sphinx
