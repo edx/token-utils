@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-asgiref==3.9.1
+asgiref==3.9.2
     # via
     #   -r requirements/base.txt
     #   django
@@ -12,13 +12,13 @@ cffi==2.0.0
     # via
     #   -r requirements/base.txt
     #   cryptography
-click==8.2.1
+click==8.3.0
     # via code-annotations
 code-annotations==2.3.0
     # via -r requirements/test.in
-coverage[toml]==7.10.6
+coverage[toml]==7.10.7
     # via pytest-cov
-cryptography==45.0.7
+cryptography==46.0.1
     # via -r requirements/base.txt
     # via
     #   -c https:/raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt

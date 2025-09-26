@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-asgiref==3.9.1
+asgiref==3.9.2
     # via
     #   -r requirements/quality.txt
     #   django
@@ -30,7 +30,7 @@ chardet==5.2.0
     #   -r requirements/ci.txt
     #   diff-cover
     #   tox
-click==8.2.1
+click==8.3.0
     # via
     #   -r requirements/pip-tools.txt
     #   -r requirements/quality.txt
@@ -50,12 +50,12 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.10.6
+coverage[toml]==7.10.7
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
     #   pytest-cov
-cryptography==45.0.7
+cryptography==46.0.1
     # via -r requirements/quality.txt
 diff-cover==9.6.0
     # via -r requirements/dev.in
@@ -94,7 +94,7 @@ jinja2==3.1.6
     #   -r requirements/quality.txt
     #   code-annotations
     #   diff-cover
-lxml[html-clean]==6.0.1
+lxml[html-clean]==6.0.2
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
