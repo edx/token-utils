@@ -57,7 +57,7 @@ coverage[toml]==7.10.7
     #   pytest-cov
 cryptography==46.0.1
     # via -r requirements/quality.txt
-diff-cover==9.6.0
+diff-cover==9.7.1
     # via -r requirements/dev.in
 dill==0.4.0
     # via
@@ -100,7 +100,7 @@ lxml[html-clean]==6.0.2
     #   lxml-html-clean
 lxml-html-clean==0.4.2
     # via lxml
-markupsafe==3.0.2
+markupsafe==3.0.3
     # via
     #   -r requirements/quality.txt
     #   jinja2
@@ -195,7 +195,7 @@ python-slugify==8.0.4
     # via
     #   -r requirements/quality.txt
     #   code-annotations
-pyyaml==6.0.2
+pyyaml==6.0.3
     # via
     #   -r requirements/quality.txt
     #   code-annotations
