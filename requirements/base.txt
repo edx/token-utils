@@ -4,15 +4,15 @@
 #
 #    make upgrade
 #
-asgiref==3.9.2
+asgiref==3.10.0
     # via django
 cffi==2.0.0
     # via cryptography
-cryptography==46.0.1
+cryptography==46.0.2
     # via -r requirements/base.in
-django==4.2.24
+django==4.2.25
     # via
-    #   -c https:/raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
 pycparser==2.23
     # via cffi
