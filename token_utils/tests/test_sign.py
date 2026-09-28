@@ -4,7 +4,7 @@ Tests for token creation and signing
 import unittest
 from time import time
 
-from jwt.exceptions import InvalidSignatureError
+from jwt.exceptions import DecodeError
 
 from token_utils import api
 from token_utils.sign import create_jwt
@@ -46,7 +46,7 @@ class TestSign(unittest.TestCase):
         expected_token_with_claims = expected_full_token.copy()
         expected_token_with_claims.update(test_claims)
 
-        with self.assertRaises(InvalidSignatureError):
+        with self.assertRaises(DecodeError):
             unpack_and_verify(token)
 
     def test_sign_api_hooked_up(self):

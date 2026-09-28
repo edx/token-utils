@@ -10,3 +10,7 @@
 
 # Common constraints for edx repos
 -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+
+# 2026-09-28: code-annotations 3.0.0 requires Python >=3.12, but this library still supports 3.11.
+# Remove once Python 3.11 support is dropped.
+code-annotations<3.0.0
