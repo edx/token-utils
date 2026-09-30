@@ -6,7 +6,7 @@ import unittest
 from time import time
 from unittest.mock import patch
 
-from jwt.exceptions import ExpiredSignatureError, InvalidSignatureError, MissingRequiredClaimError
+from jwt.exceptions import DecodeError, ExpiredSignatureError, InvalidSignatureError, MissingRequiredClaimError
 
 from token_utils import api
 from token_utils.sign import _encode_and_sign, create_jwt
@@ -50,7 +50,7 @@ class TestUnpack(unittest.TestCase):
         expected_token_with_claims = expected_full_token.copy()
         expected_token_with_claims.update(test_claims)
 
-        with self.assertRaises(InvalidSignatureError):
+        with self.assertRaises(DecodeError):
             unpack_jwt(token, test_user_id, test_now)
 
     @patch('token_utils.api.unpack_jwt')

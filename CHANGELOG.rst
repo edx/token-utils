@@ -16,6 +16,25 @@ Unreleased
 
 *
 
+[0.4.0] - 2026-09-28
+************************************************
+
+Added
+=====
+
+* Added support for Python 3.12
+
+Removed
+=======
+
+* Dropped support for Python 3.8; ``python_requires`` is now ``>=3.11``
+
+Changed
+=======
+
+* Upgraded requirements, including pyjwt 2.15. A malformed token signature may now raise
+  ``jwt.DecodeError`` (the parent of ``InvalidSignatureError``) instead of ``InvalidSignatureError``
+
 [0.3.0] - 2025-06-11
 ************************************************
 
