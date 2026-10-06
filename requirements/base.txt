@@ -8,15 +8,15 @@ asgiref==3.12.1
     # via django
 cffi==2.1.1
     # via cryptography
-cryptography==50.0.1
+cryptography==50.0.2
     # via -r requirements/base.in
-django==5.2.17
+django==5.2.18
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
 pycparser==3.0
     # via cffi
-pyjwt==2.15.0
+pyjwt==2.15.1
     # via -r requirements/base.in
 sqlparse==0.6.0
     # via django
